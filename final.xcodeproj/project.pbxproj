@@ -377,7 +377,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
 			requirement = {
-				branch = main;
+				branch = withoutRevenueCat;
 				kind = branch;
 			};
 		};

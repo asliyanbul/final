@@ -140,8 +140,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/neon-apps/neon-sdk.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "7d798159a8c0c6826e6aba0b024b1365a7851ee0"
+        "branch" : "withoutRevenueCat",
+        "revision" : "a05acb3232c29fbd5df2223d08dbf26a0fd7ac09"
       }
     },
     {
@@ -151,15 +151,6 @@
       "state" : {
         "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
         "version" : "2.4.0"
-      }
-    },
-    {
-      "identity" : "purchases-ios",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/RevenueCat/purchases-ios.git",
-      "state" : {
-        "revision" : "7d55b964114a3d4a76791227cdc28577617596db",
-        "version" : "4.43.2"
       }
     },
     {
