@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047B82F32C8EF48600711C02 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 047B82F22C8EF48600711C02 /* NeonSDK */; };
 		7896D6872C89DEE9000DA600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7896D6862C89DEE9000DA600 /* AppDelegate.swift */; };
 		7896D6892C89DEE9000DA600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7896D6882C89DEE9000DA600 /* SceneDelegate.swift */; };
 		7896D68B2C89DEE9000DA600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7896D68A2C89DEE9000DA600 /* ViewController.swift */; };
-		7896D68E2C89DEE9000DA600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7896D68C2C89DEE9000DA600 /* Main.storyboard */; };
 		7896D6902C89DEEB000DA600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7896D68F2C89DEEB000DA600 /* Assets.xcassets */; };
 		7896D6932C89DEEB000DA600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7896D6912C89DEEB000DA600 /* LaunchScreen.storyboard */; };
-		7896D69C2C89DF59000DA600 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7896D69B2C89DF59000DA600 /* NeonSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		7896D6862C89DEE9000DA600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7896D6882C89DEE9000DA600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7896D68A2C89DEE9000DA600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7896D68D2C89DEE9000DA600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7896D68F2C89DEEB000DA600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7896D6922C89DEEB000DA600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7896D6942C89DEEB000DA600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7896D69C2C89DF59000DA600 /* NeonSDK in Frameworks */,
+				047B82F32C8EF48600711C02 /* NeonSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +59,6 @@
 				7896D6862C89DEE9000DA600 /* AppDelegate.swift */,
 				7896D6882C89DEE9000DA600 /* SceneDelegate.swift */,
 				7896D68A2C89DEE9000DA600 /* ViewController.swift */,
-				7896D68C2C89DEE9000DA600 /* Main.storyboard */,
 				7896D68F2C89DEEB000DA600 /* Assets.xcassets */,
 				7896D6912C89DEEB000DA600 /* LaunchScreen.storyboard */,
 				7896D6942C89DEEB000DA600 /* Info.plist */,
@@ -86,7 +83,7 @@
 			);
 			name = final;
 			packageProductDependencies = (
-				7896D69B2C89DF59000DA600 /* NeonSDK */,
+				047B82F22C8EF48600711C02 /* NeonSDK */,
 			);
 			productName = final;
 			productReference = 7896D6832C89DEE9000DA600 /* final.app */;
@@ -117,7 +114,7 @@
 			);
 			mainGroup = 7896D67A2C89DEE9000DA600;
 			packageReferences = (
-				7896D69A2C89DF59000DA600 /* XCRemoteSwiftPackageReference "neon-sdk" */,
+				047B82F12C8EF48600711C02 /* XCRemoteSwiftPackageReference "neon-sdk" */,
 			);
 			productRefGroup = 7896D6842C89DEE9000DA600 /* Products */;
 			projectDirPath = "";
@@ -135,7 +132,6 @@
 			files = (
 				7896D6932C89DEEB000DA600 /* LaunchScreen.storyboard in Resources */,
 				7896D6902C89DEEB000DA600 /* Assets.xcassets in Resources */,
-				7896D68E2C89DEE9000DA600 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7896D68C2C89DEE9000DA600 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7896D68D2C89DEE9000DA600 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7896D6912C89DEEB000DA600 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -305,7 +293,6 @@
 				INFOPLIST_FILE = final/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -337,7 +324,6 @@
 				INFOPLIST_FILE = final/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -381,7 +367,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7896D69A2C89DF59000DA600 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
+		047B82F12C8EF48600711C02 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
 			requirement = {
@@ -392,9 +378,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7896D69B2C89DF59000DA600 /* NeonSDK */ = {
+		047B82F22C8EF48600711C02 /* NeonSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7896D69A2C89DF59000DA600 /* XCRemoteSwiftPackageReference "neon-sdk" */;
+			package = 047B82F12C8EF48600711C02 /* XCRemoteSwiftPackageReference "neon-sdk" */;
 			productName = NeonSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
